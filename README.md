@@ -1,34 +1,52 @@
-# Thai Vocab 1,000 - คลังคำศัพท์ภาษาไทยสำหรับชาวต่างชาติ (Tablet & Desktop) 🇹🇭🇬🇧
+# Thai Vocab 1,000 - Learn Thai Vocabulary for Beginners (Tablet & Desktop) 🇹🇭🇬🇧
 
-เว็บแอปพลิเคชันเรียนรู้คำศัพท์ภาษาไทย **1,000 คำ (10 หมวดหมู่ หมวดละ 100 คำ)** พร้อมคำแปลภาษาอังกฤษ (English Translation), คำอ่านโรมัน (Phonetic Romanization), คำอ่านภาษาไทย และระบบเสียงอ่านธรรมชาติ 2 ระบบ ออกแบบมาเพื่อช่วยให้ **ชาวต่างชาติที่ใช้ภาษาอังกฤษ** และผู้เรียนทุกวัยสามารถฝึกอ่าน ออกเสียง และจดจำคำศัพท์ภาษาไทยได้อย่างมีประสิทธิภาพบน **Tablet (iPad / Android Tablet)** และคอมพิวเตอร์
+An interactive web application featuring **1,000 essential Thai vocabulary words (10 categories, 100 words per category)** with English translations, phonetic romanization, Thai phonetic reading, and dual Text-to-Speech (TTS) audio engines. Designed specifically for **beginners and English speakers** to read, pronounce, and master Thai vocabulary on **Tablets (iPad / Android Tablet)** and Desktop computers.
 
-## 🌟 ฟีเจอร์เด่นในเวอร์ชันใหม่
+## 🌟 Key Features
 
-1. **คลังคำศัพท์ 1,000 คำ (หมวดละ 100 คำ):**
-   - จัดหมวดหมู่ **"🪷 พระพุทธศาสนาและพระสงฆ์ (Buddhism & Monks)"** เป็นหมวดแรกสุด เพื่อรองรับชาวต่างชาติและผู้สนใจศึกษาธรรมะ คำศัพท์วัด และการปฏิบัติธรรม
-   - ครบทั้ง 10 หมวดหมู่: พระพุทธศาสนาและพระสงฆ์ (100), อาหารและเครื่องดื่ม (100), สัตว์และธรรมชาติ (100), ร่างกายและสุขภาพ (100), ชีวิตประจำวันและสิ่งของ (100), การเดินทางและสถานที่ (100), อารมณ์และความรู้สึก (100), อาชีพและการทำงาน (100), การศึกษาและวิทยาการ (100), คำน่ารู้และสำนวนไทย (100)
-2. **ระบบโปรไฟล์ผู้เรียนแบบง่าย (Local Multi-Profile + Export/Import):**
-   - สร้างและสลับโปรไฟล์ผู้เรียนได้หลายคนในเครื่องเดียว (เลือกชื่อและไอคอนประจำตัวได้)
-   - แยกบันทึกความก้าวหน้า **คำที่เรียนแล้ว (Learned)**, **คำโปรด (Favorites)**, **สถิติคะแนนแบบทดสอบ (Quiz Stats)** และการตั้งค่าเสียงของแต่ละคน
-   - รองรับการ **Export / Import ข้อมูลโปรไฟล์** ทั้งแบบดาวน์โหลดไฟล์ `.json` และคัดลอกโค้ดข้อความเพื่อย้ายข้อมูลข้ามเครื่องได้ทันทีโดยไม่ต้องใช้เซิร์ฟเวอร์
-3. **ระบบบันทึกคำที่เรียนแล้ว (✓ Learned Tracking) และตัวกรองสถานะ:**
-   - มีปุ่มเครื่องหมายถูก **`✓ เรียนแล้ว (Learned)`** บนการ์ดคำศัพท์ทุกใบ ในโหมดแฟลชการ์ด และหลังตอบคำถาม Quiz
-   - เรียกดูแยกตามสถานะได้ทันทีจากทั้งแถบเมนูหลักและตัวกรองย่อย: **ทั้งหมด (All)**, **⏳ ยังไม่ได้เรียน (To Learn)**, **✅ เรียนแล้ว (Learned)** และ **❤️ คำโปรด (Favorites)**
-4. **ออกแบบ UX/UI เพื่อชาวต่างชาติที่ใช้ภาษาอังกฤษ (Bilingual EN/TH Experience):**
-   - แสดงป้ายกำกับ 2 ภาษา (ไทย-อังกฤษ) ทั้งชื่อหมวดหมู่ ชนิดของคำ (`คำนาม • Noun`, `คำกริยา • Verb`, ฯลฯ) และเมนูใช้งาน
-   - แสดง **Phonetic Romanization** คู่กับ **คำอ่านภาษาไทย** บนทุกการ์ด ช่วยให้ผู้ที่ยังอ่านอักษรไทยไม่คล่องสามารถออกเสียงตามได้ทันที
-   - เพิ่มปุ่ม **🔊 ฟังเสียงประโยคตัวอย่าง** นอกเหนือจากการฟังเสียงคำศัพท์เดี่ยว
-5. **โหมดแฟลชการ์ดและแบบทดสอบอัจฉริยะ (Smart Flashcards & Quiz):**
-   - เลือกฝึกเฉพาะหมวดหมู่ และกรองเฉพาะ **คำที่ยังไม่ได้เรียน** หรือ **คำที่เรียนแล้ว** ได้
-   - แฟลชการ์ดเลือกสลับด้านหน้าได้ทั้ง **🇹🇭 ไทย ➔ 🇬🇧 อังกฤษ** และ **🇬🇧 อังกฤษ ➔ 🇹🇭 ทายคำไทย**
-   - โหมด Quiz รองรับการทายคำแปลภาษาอังกฤษ (`TH ➔ EN`), ทายคำศัพท์ไทยจากภาษาอังกฤษ (`EN ➔ TH`), ทายคำอ่าน (`Pronunciation`) และโหมดผสม (`Mixed`)
+1. **1,000 Curated Thai Words (100 Words per Category):**
+   - Features **"🪷 Buddhism & Monks"** as the first category to support learners interested in Thai culture, temples, Dhamma, and meditation.
+   - Covers 10 essential categories:
+     - 🪷 **Buddhism & Monks** (100 words)
+     - 🍲 **Food & Drinks** (100 words)
+     - 🌿 **Animals & Nature** (100 words)
+     - ❤️ **Body & Health** (100 words)
+     - ⏰ **Daily Life & Objects** (100 words)
+     - ✈️ **Travel & Places** (100 words)
+     - 😊 **Emotions & Feelings** (100 words)
+     - 💼 **Jobs & Careers** (100 words)
+     - 🎓 **Education & Science** (100 words)
+     - 💡 **Useful Phrases & Idioms** (100 words)
 
-## 🚀 วิธีเปิดใช้งาน
+2. **Beginner-Friendly English Interface:**
+   - All menus, navigation tabs, category pills, part-of-speech tags (`Noun`, `Verb`, `Adjective`, etc.), and action buttons are in clear English.
+   - Every vocabulary card displays **Phonetic Romanization** alongside **Thai Phonetics**, allowing beginners who cannot yet read the Thai script to pronounce words immediately.
+   - Includes **🔊 Listen** and **🐢 Slow 0.6x** audio buttons for every word, plus audio playback for example sentences.
 
-1. **เปิดใช้งานบนคอมพิวเตอร์ได้ทันที:** ดับเบิลคลิกที่ไฟล์ `index.html` เพื่อเปิดในเว็บเบราว์เซอร์ (Google Chrome, Safari, Edge)
-2. **เปิดใช้งานผ่าน Wi-Fi ในบ้าน/ห้องเรียน/วัด:**
+3. **Progress Tracking (`✓ Learned` & `❤️ Favorites`):**
+   - Mark words as **`✓ Learned`** directly on vocabulary cards, flashcards, or after answering quiz questions.
+   - Filter words anytime using the top navigation tabs or status filter pills: **📚 All Words**, **⏳ To Learn**, **✅ Learned**, and **❤️ Favorites**.
+
+4. **Multi-Profile System & Easy Backup (Export / Import):**
+   - Create and switch between multiple learner profiles on a single shared device (with custom names and avatars).
+   - Each profile independently saves **Learned Words**, **Favorites**, **Quiz Statistics**, and **Voice/Speed Preferences**.
+   - **Export & Import Backups** as a `.json` file or copy-and-paste a backup code to transfer learning progress across devices without needing a server.
+
+5. **Interactive 3D Flashcards & Smart Quiz:**
+   - Filter flashcards and quizzes by category and study pool (**All Words**, **To Learn Only**, **Learned Only**, or **Favorites Only**).
+   - Switch flashcard front direction between **🇹🇭 Thai Word ➔ 🇬🇧 English Meaning** and **🇬🇧 English Meaning ➔ 🇹🇭 Guess Thai Word**.
+   - Test your memory with multiple-choice quizzes supporting **Thai to English**, **English to Thai**, **Pronunciation & Romanization**, and **Mixed** modes.
+
+## 🚀 How to Run
+
+1. **Run Locally on Any Computer:**
+   Simply double-click `index.html` to open it in any modern web browser (Google Chrome, Safari, Microsoft Edge, Firefox).
+
+2. **Serve Over Local Wi-Fi (Home / Classroom / Temple):**
    ```bash
    python3 -m http.server 8080
    ```
-   จากนั้นเปิดเบราว์เซอร์บน Tablet ไปที่ `http://<IP-ของเครื่องคอมพิวเตอร์>:8080`
-3. **นำขึ้น GitHub Pages ฟรี 100%:** อัปโหลดไฟล์ `index.html`, `app.js`, `words.js`, `manifest.json` ขึ้น GitHub Repository แล้วเปิดใช้งาน GitHub Pages
+   Then open the browser on your Tablet or phone and go to `http://<your-computer-ip>:8080`.
+
+3. **Deploy to GitHub Pages (100% Free):**
+   Upload `index.html`, `app.js`, `words.js`, and `manifest.json` to a GitHub repository and enable **GitHub Pages** in the repository settings.
